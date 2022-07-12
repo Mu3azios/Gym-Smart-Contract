@@ -1,0 +1,39 @@
+.background{
+    width: 100%;
+    opacity: 0.6;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    
+    
+}
+.container{
+    position:relative;
+    text-align: center;
+    color: rgb(62, 62, 60);
+    justify-content: space-between;
+}
+.text{
+    position: absolute;
+    border: 5px solid rgb(69, 69, 153);
+    width: 30%;
+    border-radius: 20px;
+    text-align: justify;
+    padding: 5px;
+    margin-left: 60px;
+    font-size: large;
+    top: 30px;
+    color: rgb(2, 22, 34);
+    background-color: rgba(0, 88, 165, 0.244);
+
+}
+.form{
+    position: absolute;
+    border: 5px solid black ;
+    top: 60px;
+    right: 100px;
+    padding: 20px;
+    background-color: rgba(0, 255, 255, 0.123);
+    border-radius: 20px;
+    font-weight: bold;
+}
